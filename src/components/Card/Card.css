@@ -1,0 +1,104 @@
+
+ a{
+    text-decoration: none;
+}
+.main-container {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.8em;
+    border: 0.5px solid #e65b00 ;
+}
+
+
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+    z-index: 8;
+    bottom: 13px;
+}
+
+.userName {
+    text-align: center;
+    font-size: 18px;
+    color: #e65b00;
+}
+
+.job-title {
+    font-size: 10px;
+    color: rgb(70, 78, 85);
+    text-align: center;
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.social span {
+    color: #332c2c;
+    font-size: 11px;
+    line-height: 5px;
+}
+
+.social .num {
+    font-size: 13px;
+    color: #e65b00;
+}
+
+.description {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    white-space:wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.languages li {
+    background-color: #e65c0058;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid #e65b00;
+    color: #e65b00;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.active {
+    background-color: #e65b00;
+    color: #fff;
+}
